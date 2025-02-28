@@ -136,8 +136,10 @@ if (5 < 10) {
 
 		// "foobar";
 		{token.STRING, "foobar"},
+		{token.SEMICOLON, ";"},
 		// "foo bar";
 		{token.STRING, "foo bar"},
+		{token.SEMICOLON, ";"},
 
 		{token.EOF, ""},
 	}
